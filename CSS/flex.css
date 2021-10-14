@@ -1,8 +1,13 @@
 /****Display****/
 .d-flex{ display: flex; }
+.d-none { display: none;}
 
 /****Flex****/
+.flex-row {flex-direction: row;}
+.flex-column {flex-direction: column;}
+.flex-row-reverse{ flex-direction: row-reverse;}
 .flex-grow{ flex-grow: 1; }
+
 
 /****Align & justify****/
 .justify-content-between { justify-content: space-between; }

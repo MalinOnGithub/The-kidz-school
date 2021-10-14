@@ -41,18 +41,19 @@
 --distance-9: 2.25rem;
 --distance-10: 2.5rem;
 --distance-11: 2.75rem;
---distance-12: 3.25rem;
---distance-13: 3.5rem;
---distance-14: 3.75rem;
---distance-15: 4rem;
+--distance-12: 3rem;
+--distance-13: 3.25rem;
+--distance-14: 3.5rem;
+--distance-15: 3.75rem;
+--distance-16: 4rem;
 
 /****Shadow****/
---shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 1)
---shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, 1)
+--shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 1);
+--shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, 1);
 
 /****Borders****/
---border-xs-white: 0.1rem solid var(var(--color-white));
---border-xs: .rem solid var(--color-light);
+--border-xs-white: 0.1rem solid var(--color-white);
+--border-xs: .1rem solid var(--color-light);
 --border-sm: .2rem solid var(--color-light);
 --border-lg: .4rem solid var(--color-white);
 
@@ -93,7 +94,8 @@ body{
 .bg-primary, .btn-primary{background-color:var(--color-primary);}
 .bg-secondary {background-color:var(--color-secondary);}
 .bg-success, .btn-success{background-color:var(--color-success);}
-.bg-info, btn-info{background-color:var(--color-warning);}
+.bg-info, btn-info{background-color:var(--color-info);}
+.bg-warning, .btn-warning{background-color:var(--color-warning);}
 .bg-danger, .btn-danger{background-color:var(--color-danger);}
 .bg-light, .btn-light{background-color:var(--color-light);}
 .bg-dark, .btn-dark{background-color:var(--color-dark);}
