@@ -1,5 +1,7 @@
 /****Width****/
 .max.width{ max-width: 192rem;}
+.img-lg-width { max-width: 60%;}
+.card-width { max-width: 60rem;}
 
 /****Position****/
 .position-relative {position: relative !important;}
@@ -58,6 +60,7 @@
 .text-decoration-none{ text-decoration: none;}
 .text-center {text-align: center;}
 .text-uppercase {text-transform: uppercase;}
+.text-bold {font-weight: bold;}
 
 .lh-sm {line-height: var(--line-height-sm) ;}
 .lh-md {line-height: var(--line-height-md);}
