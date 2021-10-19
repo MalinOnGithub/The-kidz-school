@@ -2,6 +2,8 @@
 .max.width{ max-width: 192rem;}
 .img-lg-width { max-width: 60%;}
 .card-width { max-width: 60rem;}
+.width-lg {max-width: 50%;}
+.min-width-xxl {min-width: 100%;}
 
 /****Position****/
 .position-relative {position: relative !important;}
@@ -17,6 +19,7 @@
 .ml-auto, .mx-auto {margin-left: auto;}
 
 .m-6 {margin: var(--distance-6);}
+.m-15 {margin: var(--distance-15);}
 
 .mt-0, .my-0 { margin-top: var(--distance-0); } /* 0rem */
 .mb-0, .my-0 { margin-bottom: var(--distance-0); }
@@ -112,7 +115,7 @@ nav div a:not(:first-child){margin-left: var(--distance-12)}
 /***Slideshow****/
 .slider-width {width: 400%;}/*100% per image*/
 .slider-container {width: 25%;}
-.slider-img {width: 100%; object-fit: cover;}
+.slider-image {width: 100%; object-fit: cover;}
 .slider-animation {animation: 30s slider-keyframes infinite;}
 
 @keyframes slider-keyframes {
@@ -133,7 +136,7 @@ nav div a:not(:first-child){margin-left: var(--distance-12)}
 
 .icon-feature{ width: 7.6rem; height: 7.6rem; padding: 0.375re;}
 .icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
-
+.icon-form-control {right: 10px; top: 10px}
 /***Statistics***/
 .statistics-image {
 background-image: url(/images/fun-facts/fun-facts-bg-img.jpg);
